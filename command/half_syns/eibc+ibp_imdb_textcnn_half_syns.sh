@@ -1,0 +1,1 @@
+python src/train.py textcnn IMDB outdir_textcnn_eibc+ibp_imdb -d 200 --pool max -T 30 --full-train-epochs 10 -c 1.0 --dropout-prob 0.2 -b 32 --epochs-per-save 0 -D "data_cached_05" --use_lrsch_in_fulltrain --test --clip-grad-norm 0 --initial-cert-frac 0.5 --initial-cert-eps 0.5 --alpha 10.0 --unfreeze-wordvec --gamma 0.5

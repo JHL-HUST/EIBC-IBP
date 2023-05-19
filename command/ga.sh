@@ -1,0 +1,1 @@
+python src/train.py textcnn IMDB eval_cnn_cert -L outdir_textcnn_eibc+ibp_imdb --load-ckpt 29 -d 200 --pool max -T 0 -b 1 -a genetic --adv-num-epochs 40 --adv-pop-size 60 --use-lm --downsample-to 1000 --use_offical_split --test -D "data_cached_ds_1000"

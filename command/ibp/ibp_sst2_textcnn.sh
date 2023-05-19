@@ -1,0 +1,1 @@
+python src/train.py textcnn SST2 outdir_textcnn_ibp_sst2 -d 200 --pool max -T 30 --full-train-epochs 10 -c 1.0  --dropout-prob 0.2 --epochs-per-save 0 -D "data_cached" --test --clip-grad-norm 0.25 --vocab-size 0 --initial-cert-frac 0 --initial-cert-eps 0 --use_lrsch_in_fulltrain --only-model

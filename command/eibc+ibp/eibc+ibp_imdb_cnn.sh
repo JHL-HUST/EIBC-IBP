@@ -1,0 +1,1 @@
+python src/train.py cnn IMDB outdir_cnn_eibc+ibp_imdb -d 200 --pool max -T 30 --full-train-epochs 10 -c 1.0 --dropout-prob 0.2 -b 32 --epochs-per-save 0 -D "data_cached" --use_lrsch_in_fulltrain --test --clip-grad-norm 0 --initial-cert-frac 0.0 --initial-cert-eps 0.0 --alpha 10.0 --unfreeze-wordvec

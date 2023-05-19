@@ -1,0 +1,21 @@
+#Big data files
+data/*
+!data/counterfitted_neighbors.json
+data_cached
+outdir_cnn_cert
+outdir_cnn_cert_ftml+ibp
+model
+eval_cnn_cert
+
+
+# LM
+windweller-l2w
+
+#Compiled files
+*.pyc
+*.pth
+
+# Swap files
+*.sw*
+*.json
+*.txt
