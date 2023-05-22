@@ -3,7 +3,7 @@ data/*
 !data/counterfitted_neighbors.json
 data_cached
 outdir_cnn_cert
-outdir_cnn_cert_ftml+ibp
+outdir_textcnn_eibc+ibp_imdb
 model
 eval_cnn_cert
 

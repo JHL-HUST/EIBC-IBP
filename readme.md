@@ -1,5 +1,5 @@
 # Robustness-aware Word Embedding Improves Certified Robustness to Adversarial Word Substitutions
-This is the data and code for paper Robustness-Aware Word Embedding Improves Certified Robustness to Adversarial Word Substitutions (Findings of ACL 2023).
+This is the data and code for paper **Robustness-Aware Word Embedding Improves Certified Robustness to Adversarial Word Substitutions (Findings of ACL 2023)**.
 ## Environment
 * Pytorch 1.11.0+cu113
 * NLTK 3.7

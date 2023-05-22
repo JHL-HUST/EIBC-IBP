@@ -777,7 +777,7 @@ class RawClassificationDataset(data_util.RawDataset):
   """
 
     def get_word_set(self, attack_surface):
-		# delete words without synonym
+		# use vocabulary of counter-fitted word embeddings
         with open(COUNTER_FITTED_FILE) as f:
             counter_vocab = set([line.split(' ')[0] for line in f])
         word_set = set()
@@ -797,7 +797,7 @@ class RawClassificationDataset(data_util.RawDataset):
         return word_set & counter_vocab
 
     def get_word_set_v2(self, attack_surface):
-		# keep all words
+		# use vocabulary of glove word embeddings
         word_set = set()
         for x, y in self.data:
             words = [w.lower() for w in x.split(' ')]
